@@ -1,0 +1,84 @@
+/* CSS */
+.weather-details {
+    max-width: 3000px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images8.alphacoders.com/130/1309303.jpeg'); /* รูปภาพพื้นหลัง */
+    background-size: cover; /* ปรับขนาดให้เต็มพื้นที่ */
+    background-position: center; /* จัดตำแหน่งให้อยู่ตรงกลาง */
+    filter: brightness(1.2) contrast(1.2); /* ปรับความสว่างและความคมชัดของรูปภาพ */
+  }
+  
+  .box{
+    max-width: 500px;
+    margin: 1.5rem;
+    border-radius: 5px;
+    padding: 50px;
+    align-items: center;
+    height: 70vh; /* รูปภาพพื้นหลัง */
+    background-color: rgba(255, 255, 255, 0.938);
+  }
+  .weather-details h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  .chbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .cloud-image {
+    width: 100px; /* ปรับขนาดตามต้องการ */
+    height: auto; /* ปรับขนาดตามต้องการ */
+  }
+  .notfound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+  }
+  .c {
+    margin-top: 10px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
+  }
+  
+  .weather-details p {
+    margin: 10px 1rem;
+    color: #555;
+  }
+  
+  /* เพิ่มสไตล์สำหรับรูปภาพเมฆ */
+  .cloud-image {
+    width: 100px;
+    height: auto;
+    filter: brightness(0.7) contrast(1.2);
+    border-radius: 30px;
+  }
+  .cbox2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 50px; /* ระยะห่างระหว่าง grid items */
+  }
+  .c{
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 20%;
+    color: rgb(0, 0, 0);
+  }
+  
